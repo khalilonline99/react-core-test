@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* added later */
+
+.personDetails {
+  background-color: steelblue;
+  width: 35%;
+  margin: auto;
+  padding: 10px;
+  border: 2px solid green;
+  margin-top: 5px;
+}
