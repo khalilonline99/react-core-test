@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { useState } from 'react';
 
 const randomNumber =  2500;
 const reader = {name: 'bablu',
@@ -59,9 +60,11 @@ function App() {
 }
 
 function Counter () {
+  const [count, setCount] = useState(12);
+  
   return (
     <div>
-      <h2>Count:</h2>
+      <h2>Count:{count} </h2>
       <button>Increase</button>
     </div>
   )
